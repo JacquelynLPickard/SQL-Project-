@@ -1,6 +1,6 @@
 # SQL-Project-
 Foundational SQL project demonstrating data querying and analysis skills.
-# SQL Data Analysis Project (In Progress)
+# SQL Data Analysis Project 
 
 ## 📌 Project Status
 Currently building this project as part of my Google Data Analytics learning journey.
@@ -15,7 +15,7 @@ This project will demonstrate my ability to:
 
 ## 🛠 Tools
 - SQL
-- (Platform used will be added upon completion)
+- BigQuery 
 
 ## 📊 What This Project Will Include
 - Business problem statement
@@ -25,9 +25,9 @@ This project will demonstrate my ability to:
 - Key findings
 - Final insights and recommendations
 
-## 🚀 Expected Completion
-To be updated as I progress.
+## 🚀 Aptil 17, 2026
+
 
 ---
 
-This repository reflects my growth in SQL and will be updated as my skills develop.
+This repository reflects my growth in SQL
