@@ -1,0 +1,32 @@
+# 📊 Exploration Project - Homelessness 
+
+## 📌 Project Summary
+Briefly explain:
+- What problem are you solving? We are condensing the states and locations of the available homeless shelters that can be easily found by those in need. 
+- Why does it matter? It matters to have a organized dataset, so that the information can be found and read easily by those in need or searching for it. 
+- What type of data are you analyzing? I am analyzing the CoC_Number, the CoC_Name, and the State in which the homeless facilities are located. 
+
+## 📂 Dataset
+- Source: BigQuery public dataset
+- Description: What does the dataset include? CoC_number, CoC_Name, State, Overall_Homeless, Sheltered_ES_Homeless, Sheltered_TH_Homeless, Sheltered_SH_Homeless, Sheltered_Total_Homeless, Unsheltered_Homesless, Homeless_Individuals, Homeless_People_in_Families, Chronically_Homeless, Homeless_Veterans, Homeless_Unaccompanied_Youth_Under_18, Count_Year 
+- Size: 2,768 rows 
+
+## 🛠️ Tools & Technologies
+- SQL (BigQuery)
+
+## 🔍 Data Analysis Process
+Step-by-step:
+1. Data cleaning (removing nulls, duplicates)
+2. Exploratory analysis
+3. Key queries written
+4. Visualization process
+
+## 📈 Key Findings & Results
+- Large dataset with a lot of NULL, cleared out the NULL by condensing the dataset to the information that was needed to use the dataset
+- There was not a column for State, one was created so that it will be easier to identify where each homeless shelter was located.
+
+## 📸 Screenshots / Visualizations
+
+## 🚀 Future Improvements / Questions
+- What would you explore next? I would explore specific homeless shelters and retrieve data that will be readily available and useful for those in need. 
+- What limitations did you face? It was a very large dataset, so clearing out the NULLs without deleting important content was the main focus. 
