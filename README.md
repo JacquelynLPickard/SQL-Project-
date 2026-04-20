@@ -25,7 +25,7 @@ This project will demonstrate my ability to:
 - Key findings
 - Final insights and recommendations
 
-## 🚀 Aptil 17, 2026
+## 🚀 April 17, 2026
 
 
 ---
