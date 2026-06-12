@@ -1,14 +1,14 @@
 # SQL Data Analysis Project — Retail Sales
 
-**Author:** Jacquelyn L. Pickard
+**Author:** Jacquelyn L Pickard
 **Part of:** Google Data Analytics Learning Journey
-**Status:** ✅ Complete
+**Status:** ✅ Complete 
 
 ---
 
 ## Project Overview
 
-This project demonstrates foundational SQL data analysis skills using a simulated **retail sales database**. The dataset includes customers, employees, products, orders, and order line items — typical of a real-world business data environment.
+This project demonstrates foundational SQL data analysis skills using a simulated **retail sales database**. The dataset includes customers, employees, products, orders, and order line items typical of a real world business data environment. 
 
 ---
 
@@ -78,7 +78,7 @@ customers ────────────────────┐       
 
 ## Query Sections
 
-### Section 1 — Filtering & Sorting
+### Section 1: Filtering & Sorting
 | # | Query | Technique |
 |---|---|---|
 | 1.1 | Customers by state | `WHERE`, `ORDER BY` |
@@ -86,7 +86,7 @@ customers ────────────────────┐       
 | 1.3 | Completed orders in Q1 2023 | `WHERE`, `BETWEEN` |
 | 1.4 | Low-stock products | `WHERE`, `ORDER BY` |
 
-### Section 2 — JOIN Statements
+### Section 2: JOIN Statements
 | # | Query | Technique |
 |---|---|---|
 | 2.1 | Orders with customer & employee names | `INNER JOIN` (3 tables) |
@@ -95,7 +95,7 @@ customers ────────────────────┐       
 | 2.4 | Employees with their manager's name | Self-`JOIN` |
 | 2.5 | Full order summary (5-table join) | Multi-table `INNER JOIN` |
 
-### Section 3 — Aggregations
+### Section 3: Aggregations
 | # | Query | Technique |
 |---|---|---|
 | 3.1 | Revenue by product category | `GROUP BY`, `SUM`, `COUNT` |
@@ -105,7 +105,7 @@ customers ────────────────────┐       
 | 3.5 | Customer lifetime value & AOV | Subquery, `AVG` |
 | 3.6 | Cancellation rate per rep | `HAVING`, percentage calc |
 
-### Section 4 — Actionable Insights
+### Section 4: Actionable Insights
 | # | Query | Business Insight |
 |---|---|---|
 | 4.1 | Customers with no orders | Re-engagement campaign targets |
@@ -118,7 +118,7 @@ customers ────────────────────┐       
 
 ## How to Run
 
-**Prerequisites:** Python 3.8+ (no external packages required — uses built-in `sqlite3`)
+**Prerequisites:** Python 3.8+ (no external packages required uses built in `sqlite3`)
 
 ```bash
 # Clone the repo
@@ -129,7 +129,7 @@ cd SQL-Project-
 python run_queries.py
 ```
 
-The script loads the schema and seed data into an in-memory SQLite database and prints every query with its results in a formatted table.
+The script loads the schema and seed data into an in memory SQLite database and prints every query with its results in a formatted table.
 
 ---
 
@@ -138,17 +138,17 @@ The script loads the schema and seed data into an in-memory SQLite database and 
 - **Electronics** is the highest-revenue category, driven largely by the *Laptop Pro 15* ($1,299.99 unit price).
 - **David Chen** leads the sales team in revenue generated.
 - **Atlanta, GA** customers have the highest repeat purchase rate.
-- The *Laptop Pro 15 + Wireless Mouse* pair is the most common product combination — a strong bundling opportunity.
-- Several customers joined in 2021–2022 but have **zero completed orders** — prime re-engagement targets.
+- The *Laptop Pro 15 + Wireless Mouse* pair is the most common product combination a strong bundling opportunity.
+- Several customers joined in 2021–2022 but have **zero completed orders** prime re-engagement targets.
 
 ---
 
 ## Tools
 
 - **SQL** (SQLite-compatible syntax, also runs in BigQuery with minor `date` function adjustments)
-- **Python 3** — for local execution via `sqlite3` module
-- **VS Code** — development environment
-- **Git / GitHub** — version control
+- **Python 3** for local execution via `sqlite3` module
+- **VS Code** development environment
+- **Git / GitHub** version control
 
 ---
 
