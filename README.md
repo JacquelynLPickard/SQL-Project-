@@ -1,4 +1,4 @@
-# SQL Data Analysis Project — Retail Sales
+# Retail Sales SQL Analysis
 
 **Author:** Jacquelyn L Pickard
 **Part of:** Google Data Analytics Learning Journey
